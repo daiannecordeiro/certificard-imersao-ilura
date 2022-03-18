@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;600&display=swap');
+
+body{
+  background: linear-gradient(236.85deg, #5B2C6F 27.26%, #AF7AC5 96.03%);
+  font-family: 'Cairo', sans-serif;
+}
+
+.container {
+  background: #ECF4FF;
+  color: #1C1C1C;
+  margin: 64px;
+  box-shadow: 6px 6px 6px #581845;
+  border-radius: 20px;
+  padding: 64px;
+  }
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25));  
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 200;
+  font-size: 20px
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  font-height: 300;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+    
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+background: linear-gradient(230.65deg, #D2B4DE 27.49%, #EBDEF0  83.19%);
+box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+border-radius: 20px;
+margin-top: 32px;
+padding: 32px; 
+}
+
+.titulo-lista{
+  list-style: none;
+  font-weight: 600;
+  font-size: 24px
+}
+
+.item-lista {
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 20px;    
+}
+
+.item-lista a {
+  color: #1C1C1C;
+  text-decoration: none;
+  text-height: 25px;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #5E4B65 27.26%, #360A47 96.03%);
+}
+
+.dark .container {
+  background: #1E1123;
+  color: #f6f6f6;
+}
+
+.dark main {
+  background: linear-gradient(230.65deg, #796482 27.49%, #9A8AA1 83.19%);
+  }
+
+.dark .tema button {
+  background: #1E1123;
+  color: #ffffff;
+  border: 2px solid #f7f7f7
+}
